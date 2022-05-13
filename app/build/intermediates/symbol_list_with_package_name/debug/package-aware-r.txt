@@ -2545,12 +2545,17 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
+id AddPlantBtn
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id Location
 id META
 id NO_DEBUG
+id PlantDescription
+id PlantImage
+id PlantName
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2778,6 +2783,7 @@ id item4
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id label_PlantPicture
 id labeled
 id layout
 id left
@@ -3119,6 +3125,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_camera2
 layout activity_main
+layout activity_plant_input
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
