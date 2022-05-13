@@ -34,6 +34,13 @@ class MainActivity : AppCompatActivity() {
             android.Manifest.permission.ACCESS_FINE_LOCATION,
             android.Manifest.permission.ACCESS_COARSE_LOCATION))
 
+
+        val mapButton = findViewById<Button>(R.id.mapBtn)
+        mapButton.setOnClickListener {
+            val intent = Intent(this, MapActivity::class.java)
+            startActivity(intent)
+        }
+
         val enterPlant = findViewById<Button>(R.id.enterPlant)
         enterPlant.setOnClickListener() {
             val intent = Intent(this, CameraActivity::class.java)
