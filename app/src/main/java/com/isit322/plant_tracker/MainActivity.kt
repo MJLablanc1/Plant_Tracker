@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
-import java.util.jar.Manifest
 
 class MainActivity : AppCompatActivity() {
 
@@ -35,9 +34,16 @@ class MainActivity : AppCompatActivity() {
             android.Manifest.permission.ACCESS_FINE_LOCATION,
             android.Manifest.permission.ACCESS_COARSE_LOCATION))
 
+
         val mapButton = findViewById<Button>(R.id.mapBtn)
         mapButton.setOnClickListener {
             val intent = Intent(this, MapActivity::class.java)
+            startActivity(intent)
+        }
+
+        val enterPlant = findViewById<Button>(R.id.enterPlant)
+        enterPlant.setOnClickListener() {
+            val intent = Intent(this, CameraActivity::class.java)
             startActivity(intent)
         }
     }
