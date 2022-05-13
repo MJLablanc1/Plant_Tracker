@@ -1,8 +1,10 @@
 package com.isit322.plant_tracker
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.RequiresApi
 import java.util.jar.Manifest
@@ -32,5 +34,11 @@ class MainActivity : AppCompatActivity() {
         locationPermissionRequest.launch(arrayOf(
             android.Manifest.permission.ACCESS_FINE_LOCATION,
             android.Manifest.permission.ACCESS_COARSE_LOCATION))
+
+        val mapButton = findViewById<Button>(R.id.mapBtn)
+        mapButton.setOnClickListener {
+            val intent = Intent(this, MapActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
