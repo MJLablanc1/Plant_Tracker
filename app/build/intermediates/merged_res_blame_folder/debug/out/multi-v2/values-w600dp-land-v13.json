@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\ClassProject\\Plant_Tracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+            "outputFile": "C:\\Stas\\Courses\\322\\Project\\Main\\Plant_Tracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\madmi\\.gradle\\caches\\transforms-3\\f854b8150f3a2be00b0f64794eacce62\\transformed\\material-1.5.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\Samts\\.gradle\\caches\\transforms-3\\e61842c0f63c94df90a70cf95ce9d6bc\\transformed\\material-1.5.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
