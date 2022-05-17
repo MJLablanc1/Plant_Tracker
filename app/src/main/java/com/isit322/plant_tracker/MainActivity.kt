@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             android.Manifest.permission.ACCESS_COARSE_LOCATION))
 
         val enterPlant = findViewById<Button>(R.id.enterPlant)
-        enterPlant.setOnClickListener() {
+        enterPlant.setOnClickListener {
             val intent = Intent(this, CameraActivity::class.java)
             startActivity(intent)
         }

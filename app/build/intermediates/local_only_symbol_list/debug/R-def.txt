@@ -23,3 +23,4 @@ string enter_plant
 string settings
 string startBtn
 style Theme.Plant_Tracker
+xml fileprovider

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\madmi\.gradle\caches\transforms-3\4147400eff6702c02d16411b60229314\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\madmi\.gradle\caches\transforms-3\f854b8150f3a2be00b0f64794eacce62\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\madmi\.gradle\caches\transforms-3\95155ec7379d2e86f014dafbf884f0e9\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
@@ -49,20 +49,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\madmi\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\madmi\.gradle\caches\transforms-3\efb623b0ce6afdc1a9b8384406759832\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\madmi\.gradle\caches\transforms-3\eeeea5a5940c319cbb29e6aa47bee0bf\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\madmi\.gradle\caches\transforms-3\4178c39bcaf85541abced1ebcb79b15e\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:2:11-69
@@ -83,7 +83,7 @@ ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Track
 	android:name
 		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:8:22-77
 application
-ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:10:5-29:18
+ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:10:5-39:18
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\madmi\.gradle\caches\transforms-3\f854b8150f3a2be00b0f64794eacce62\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\madmi\.gradle\caches\transforms-3\f854b8150f3a2be00b0f64794eacce62\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\madmi\.gradle\caches\transforms-3\95155ec7379d2e86f014dafbf884f0e9\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -122,28 +122,44 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\madmi\.gradle\cach
 		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
 		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:14:9-51
+provider#androidx.core.content.FileProvider
+ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:18:9-26:20
+	android:grantUriPermissions
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:19:13-73
+	android:exported
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:20:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:23:13-25:56
+	android:resource
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:25:17-53
+	android:name
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:24:17-67
 activity#com.isit322.plant_tracker.CameraActivity
-ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:17:8-19:39
+ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:27:8-29:39
 	android:exported
-		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:19:12-36
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:29:12-36
 	android:name
-		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:18:12-42
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:28:12-42
 activity#com.isit322.plant_tracker.MainActivity
-ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:20:8-28:19
+ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:30:8-38:19
 	android:exported
-		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:22:12-35
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:32:12-35
 	android:name
-		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:21:12-40
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:31:12-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:23:12-27:28
+ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:33:12-37:28
 action#android.intent.action.MAIN
-ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:24:16-68
+ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:34:16-68
 	android:name
-		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:24:24-65
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:34:24-65
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:26:16-76
+ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:36:16-76
 	android:name
-		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:26:26-73
+		ADDED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml:36:26-73
 uses-sdk
 INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\madmi\Desktop\ISIT322\Project files\ClassProject\Plant_Tracker\app\src\main\AndroidManifest.xml
