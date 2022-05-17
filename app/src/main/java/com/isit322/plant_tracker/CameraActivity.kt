@@ -13,6 +13,8 @@ import android.widget.Toast
 import androidx.core.content.FileProvider
 import java.io.File
 
+//Camera functions
+//File_name and Request_code are only reference names in this instance
 private  const val FILE_NAME = "photo"
 private const val REQUEST_CODE = 42
 private lateinit var photoFile: File
@@ -21,11 +23,13 @@ class CameraActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_camera2)
 
+        //Sets up the picture button, using an Intent to access the camera to actually take the photo
         val btnTakePicture = findViewById<Button>(R.id.btnTakePicture)
         btnTakePicture.setOnClickListener {
             val takePictureIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
             photoFile = getPhotoFile(FILE_NAME)
 
+            // A FileProvider saves the photo, which we will later retrieve for a higher quality preview to the user
             val fileProvider = FileProvider.getUriForFile(this, "com.isit322.plant_tracker.fileprovider", photoFile)
             takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, fileProvider)
             if (takePictureIntent.resolveActivity(this.packageManager) != null ){
@@ -36,11 +40,13 @@ class CameraActivity : AppCompatActivity() {
         }
     }
 
+    //gets the directory for pictures and places a new one for the photo to be taken
     private fun getPhotoFile(fileName: String): File {
         val storageDirectory = getExternalFilesDir(Environment.DIRECTORY_PICTURES)
         return File.createTempFile(fileName, ".jpg", storageDirectory)
     }
 
+    //Gets the photo that was just taken and displays it as a preview.
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == REQUEST_CODE && resultCode == Activity.RESULT_OK) {
             val takenImage = BitmapFactory.decodeFile(photoFile.absolutePath)
