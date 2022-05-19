@@ -1312,6 +1312,7 @@ int color error_color_material_dark 0x7f050064
 int color error_color_material_light 0x7f050065
 int color foreground_material_dark 0x7f050066
 int color foreground_material_light 0x7f050067
+int color green 0x7f05025e
 int color highlighted_text_material_dark 0x7f050068
 int color highlighted_text_material_light 0x7f050069
 int color m3_appbar_overlay_color 0x7f05006a
@@ -2568,6 +2569,8 @@ int drawable test_custom_background 0x7f0700ae
 int drawable test_level_drawable 0x7f0700af
 int drawable tooltip_frame_dark 0x7f0700b0
 int drawable tooltip_frame_light 0x7f0700b1
+int drawable tree1 0x7f0700b2
+int drawable tree2 0x7f0700b3
 int id ALT 0x7f080000
 int id AddPlantBtn 0x7f080001
 int id BOTTOM_END 0x7f080002
@@ -2585,6 +2588,7 @@ int id SHOW_ALL 0x7f08000d
 int id SHOW_PATH 0x7f08000e
 int id SHOW_PROGRESS 0x7f08000f
 int id SYM 0x7f080010
+int id StartBtn 0x7f0801f8
 int id TOP_END 0x7f080011
 int id TOP_START 0x7f080012
 int id accelerate 0x7f080013
@@ -2673,7 +2677,6 @@ int id bounce 0x7f080065
 int id bounceBoth 0x7f080066
 int id bounceEnd 0x7f080067
 int id bounceStart 0x7f080068
-int id btnTakePicture 0x7f080069
 int id buttonPanel 0x7f08006a
 int id cache_measures 0x7f08006b
 int id callMeasure 0x7f08006c
@@ -2755,7 +2758,6 @@ int id end 0x7f0800b7
 int id endToStart 0x7f0800b8
 int id enterAlways 0x7f0800b9
 int id enterAlwaysCollapsed 0x7f0800ba
-int id enterPlant 0x7f0800bb
 int id exitUntilCollapsed 0x7f0800bc
 int id expand_activities_button 0x7f0800bd
 int id expanded_menu 0x7f0800be
@@ -2794,7 +2796,6 @@ int id ifRoom 0x7f0800de
 int id ignore 0x7f0800df
 int id ignoreRequest 0x7f0800e0
 int id image 0x7f0800e1
-int id imageView 0x7f0800e2
 int id immediateStop 0x7f0800e3
 int id included 0x7f0800e4
 int id info 0x7f0800e5
@@ -2821,7 +2822,6 @@ int id linear 0x7f0800f9
 int id linear_layout_recycler_view 0x7f0800fa
 int id listMode 0x7f0800fb
 int id list_item 0x7f0800fc
-int id mapBtn 0x7f0800fd
 int id mapView 0x7f0800fe
 int id masked 0x7f0800ff
 int id match_constraint 0x7f080100
@@ -2984,7 +2984,6 @@ int id src_in 0x7f08019c
 int id src_over 0x7f08019d
 int id standard 0x7f08019e
 int id start 0x7f08019f
-int id startBtn 0x7f0801a0
 int id startHorizontal 0x7f0801a1
 int id startToEnd 0x7f0801a2
 int id startVertical 0x7f0801a3
@@ -3158,7 +3157,6 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
-int layout activity_camera2 0x7f0b001c
 int layout activity_main 0x7f0b001d
 int layout activity_map 0x7f0b001e
 int layout activity_plant_input 0x7f0b001f
@@ -3410,7 +3408,7 @@ int string plant_img 0x7f0f0097
 int string plant_name 0x7f0f0098
 int string search_menu_title 0x7f0f0099
 int string settings 0x7f0f009a
-int string startBtn 0x7f0f009b
+int string start 0x7f0f009d
 int string status_bar_notification_info_overflow 0x7f0f009c
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
@@ -6412,6 +6410,7 @@ int styleable ViewTransition_upDuration 13
 int styleable ViewTransition_viewTransitionMode 14
 int[] styleable include { 0x7f03010c }
 int styleable include_constraintSet 0
+int xml fileprovider 0x7f120005
 int xml standalone_badge 0x7f120000
 int xml standalone_badge_gravity_bottom_end 0x7f120001
 int xml standalone_badge_gravity_bottom_start 0x7f120002

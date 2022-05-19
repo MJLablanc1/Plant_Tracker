@@ -30,7 +30,8 @@ class MainActivity : AppCompatActivity() {
             }
             permissions.getOrDefault(android.Manifest.permission.ACCESS_COARSE_LOCATION, false) -> {
                 //only approximate location access granted.
-            } else -> {
+            }
+            else -> {
                 //No location access granted
             }
         }
@@ -40,35 +41,21 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*locationPermissionRequest.launch(arrayOf(
-            android.Manifest.permission.ACCESS_FINE_LOCATION,
-            android.Manifest.permission.ACCESS_COARSE_LOCATION))*/
-
-
-        val mapButton = findViewById<Button>(R.id.mapBtn)
-        mapButton.setOnClickListener {
-            val intent = Intent(this, MapActivity::class.java)
-            startActivity(intent)
-        }
-
-        val enterPlant = findViewById<Button>(R.id.enterPlant)
-        enterPlant.setOnClickListener() {
-            val intent = Intent(this, CameraActivity::class.java)
-            startActivity(intent)
-        }
-
-        init()
-    }
-
-    private fun init() {
         viewModel = ViewModelProvider(this).get(PlantViewModel::class.java)
         adapterRecyclerView = AdapterRecycler(plantList, this)
         recycler_view.adapter = adapterRecyclerView
         recycler_view.layoutManager = LinearLayoutManager(this)
 
-        startBtn.setOnClickListener {
-            progress_bar.visibility = View.VISIBLE
 
+        /*
+            locationPermissionRequest.launch(arrayOf(
+            android.Manifest.permission.ACCESS_FINE_LOCATION,
+            android.Manifest.permission.ACCESS_COARSE_LOCATION))
+        */
+
+        val startButton = findViewById<Button>(R.id.StartBtn)
+        startButton.setOnClickListener {
+            progress_bar.visibility = View.VISIBLE
             viewModel.getArtwork(this)
             viewModel.plantResponse.observe(this) {
                 if (!it.isEmpty()) {
@@ -76,11 +63,12 @@ class MainActivity : AppCompatActivity() {
                     linear_layout_recycler_view.visibility = View.VISIBLE
                     plantList = it
                     adapterRecyclerView.setData(plantList)
-                }
-                else {
+                } else {
                     progress_bar.visibility = View.GONE
                 }
             }
+        val intent = Intent(this, MapActivity::class.java)
+        startActivity(intent)
         }
     }
 }

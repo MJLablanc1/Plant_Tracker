@@ -1313,6 +1313,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -2569,6 +2570,8 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable tree1
+drawable tree2
 id ALT
 id AddPlantBtn
 id BOTTOM_END
@@ -2586,6 +2589,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id StartBtn
 id TOP_END
 id TOP_START
 id accelerate
@@ -2674,7 +2678,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnTakePicture
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2756,7 +2759,6 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
-id enterPlant
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2795,7 +2797,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id immediateStop
 id included
 id info
@@ -2822,7 +2823,6 @@ id linear
 id linear_layout_recycler_view
 id listMode
 id list_item
-id mapBtn
 id mapView
 id masked
 id match_constraint
@@ -2985,7 +2985,6 @@ id src_in
 id src_over
 id standard
 id start
-id startBtn
 id startHorizontal
 id startToEnd
 id startVertical
@@ -3159,7 +3158,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_camera2
 layout activity_main
 layout activity_map
 layout activity_plant_input
@@ -3411,7 +3409,7 @@ string plant_img
 string plant_name
 string search_menu_title
 string settings
-string startBtn
+string start
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -4584,6 +4582,7 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration ifTagNotSet ifTagSet motionInterpolator motionTarget onStateTransition pathMotionArc setsTag transitionDisable upDuration viewTransitionMode
 styleable include constraintSet
+xml fileprovider
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

@@ -6,39 +6,40 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/tree2">
+
+  <TextView
+      android:layout_width="180dp"
+      android:layout_height="wrap_content"
+      android:text="Plant Tracker"
+      android:textAllCaps="true"
+      android:textSize="40dp"
+      android:strokeColor="@color/black"
+      android:strokeWidth="2"
+      android:textColor="@color/green"
+      android:layout_margin="50dp"
+
+      android:shadowColor="#000"
+      android:shadowDx="2"
+      android:shadowDy="2"
+      android:shadowRadius="1.5"/>
 
   <Button
-      android:id="@+id/startBtn"
+      android:id="@+id/StartBtn"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:gravity="center"
       android:layout_marginTop="24dp"
-      android:text="@string/startBtn"/>
+      android:text="@string/start"/>
 
-    <Button
-        android:id="@+id/enterPlant"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="24dp"
-        android:text="@string/enter_plant"/>
-
-    <Button
+  <Button
         android:id="@+id/settingsBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="24dp"
         android:text="@string/settings"/>
-
-  <Button
-      android:id="@+id/mapBtn"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:gravity="center"
-      android:layout_marginTop="24dp"
-      android:text="@string/map"/>
 
   <ProgressBar
       android:visibility="gone"
