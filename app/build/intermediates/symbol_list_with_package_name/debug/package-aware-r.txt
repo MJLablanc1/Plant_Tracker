@@ -2675,6 +2675,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnTakePicture
+id button3
 id buttonPanel
 id cache_measures
 id callMeasure

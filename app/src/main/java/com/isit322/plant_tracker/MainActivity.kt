@@ -16,9 +16,13 @@ import com.isit322.artworklist.ui.PlantViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+    var PLANTS_KEY = "PLANTS"
+
     lateinit var viewModel: PlantViewModel
     lateinit var adapterRecyclerView: AdapterRecycler
     var plantList: List<PlantItem>? = ArrayList()
+
 
     @RequiresApi(Build.VERSION_CODES.N)
     val locationPermissionRequest = registerForActivityResult(
@@ -53,7 +57,15 @@ class MainActivity : AppCompatActivity() {
 
         val enterPlant = findViewById<Button>(R.id.enterPlant)
         enterPlant.setOnClickListener() {
+
+//            val plantList = ArrayList<Plant>()
+//            plantList.add(Plant("sunflower", "imageHere", "34343"))
+//            plantList.add(Plant("blueberries", "secondImg", "12818"))
+
             val intent = Intent(this, CameraActivity::class.java)
+
+//            intent.putExtra(PLANTS_KEY, plantList)
+
             startActivity(intent)
         }
 

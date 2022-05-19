@@ -9,6 +9,7 @@ import android.location.LocationManager
 import android.os.Bundle
 import android.provider.Settings
 import android.view.View
+import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
@@ -19,6 +20,7 @@ import com.google.android.gms.maps.MapView
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import com.isit322.artworklist.data.PlantItem
 
 class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
@@ -31,6 +33,18 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_map)
+
+        val enterPlantButton = findViewById<Button>(R.id.button3)
+        enterPlantButton.setOnClickListener {
+            val intent = Intent(this, PlantInput::class.java)
+            startActivity(intent)
+        }
+
+//        var plantList = ArrayList<Plant>()
+//        plantList = getIntent().getSerializableExtra("PLANTS_KEY") as ArrayList<Plant>
+//        for(i in plantList) {
+//            println(i)
+//        }
 
         // *** IMPORTANT ***
         // MapView requires that the Bundle you pass contain _ONLY_ MapView SDK
@@ -101,7 +115,6 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(map: GoogleMap) {
         map.isMyLocationEnabled = true
         map.addMarker(MarkerOptions().position(LatLng(lat, long)).title("Marker"))
-
     }
 
     override fun onPause() {

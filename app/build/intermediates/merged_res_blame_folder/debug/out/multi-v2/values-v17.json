@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Stas\\Courses\\322\\Project\\Main\\Plant_Tracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "D:\\Programming\\ISIT322\\Plant_Tracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Samts\\.gradle\\caches\\transforms-3\\5ee342e28a370d228c8807440559eac2\\transformed\\appcompat-1.4.1\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\seank\\.gradle\\caches\\transforms-3\\5ee342e28a370d228c8807440559eac2\\transformed\\appcompat-1.4.1\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

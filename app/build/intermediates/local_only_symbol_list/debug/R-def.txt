@@ -15,6 +15,7 @@ id PlantDescription
 id PlantImage
 id PlantName
 id btnTakePicture
+id button3
 id enterPlant
 id imageView
 id label_PlantPicture
