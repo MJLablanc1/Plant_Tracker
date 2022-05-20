@@ -27,7 +27,7 @@ class RGeoDataViewModel: ViewModel()  {
                 override fun onResponse(call: Call<RGeoData>, response: Response<RGeoData>) {
                     if (response.isSuccessful) {
                         RGeoDataResponse.postValue(response.body())
-                        Log.d(TAG, "Response is successful. Response: ${RGeoDataResponse.value}")
+                        Log.d(TAG, "Response is successful. Response: ${response.body()?.plus_code}")
                     }
                     else {
                         Log.d(TAG, "Response is NOT successful.")

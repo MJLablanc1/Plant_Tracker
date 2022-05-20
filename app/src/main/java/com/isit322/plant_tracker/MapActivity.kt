@@ -76,15 +76,17 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
                     if (location == null) {
                         Toast.makeText(this,"Null Recieved", Toast.LENGTH_SHORT).show()
                     } else {
-                        Toast.makeText(this,"Get Success", Toast.LENGTH_SHORT).show()
+
                         long = location.longitude
                         lat = location.latitude
+                        Toast.makeText(this,"Get Success: long: " + long + ", lat: " + lat, Toast.LENGTH_SHORT).show()
 
                         // USING Longitude and latitude values to convert to fields such as city, state etc. using Reverse Geo Coding
                         var latLong = "" + lat + "," + long + "";
                         rGeoViewModel.getRGeoData(latLong, this)
                         rGeoViewModel.RGeoDataResponse.observe(this) {
                             rGeoDataObject = it
+                            Toast.makeText(this,"GEO Success: " + rGeoDataObject.plus_code.compound_code, Toast.LENGTH_LONG).show()
                         }
                     }
                 }

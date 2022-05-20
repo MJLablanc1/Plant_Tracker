@@ -27,7 +27,7 @@ class PlantViewModel: ViewModel() {
                 override fun onResponse(call: Call<Plant>, response: Response<Plant>) {
                     if (response.isSuccessful) {
                         plantResponse.postValue(response.body())
-                        Log.d(TAG, "Response is successful. Response: ${plantResponse.value}")
+                        Log.d(TAG, "Response is successful. Response: ${response.body()?.get(0)?.plantName}")
                     }
                     else {
                         Log.d(TAG, "Response is NOT successful.")
