@@ -82,6 +82,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
                         // USING Longitude and latitude values to convert to fields such as city, state etc. using Reverse Geo Coding
                         var latLong = "" + lat + "," + long + "";
+                        rGeoViewModel.getRGeoData(latLong, this)
                         rGeoViewModel.RGeoDataResponse.observe(this) {
                             rGeoDataObject = it
                         }
