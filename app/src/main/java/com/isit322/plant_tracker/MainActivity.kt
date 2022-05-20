@@ -16,7 +16,7 @@ import com.isit322.artworklist.ui.PlantViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    lateinit var viewModel: PlantViewModel
+    lateinit var plantViewModel: PlantViewModel
     lateinit var adapterRecyclerView: AdapterRecycler
     var plantList: List<PlantItem>? = ArrayList()
 
@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun init() {
-        viewModel = ViewModelProvider(this).get(PlantViewModel::class.java)
+        plantViewModel = ViewModelProvider(this).get(PlantViewModel::class.java)
         adapterRecyclerView = AdapterRecycler(plantList, this)
         recycler_view.adapter = adapterRecyclerView
         recycler_view.layoutManager = LinearLayoutManager(this)
@@ -69,8 +69,8 @@ class MainActivity : AppCompatActivity() {
         startBtn.setOnClickListener {
             progress_bar.visibility = View.VISIBLE
 
-            viewModel.getArtwork(this)
-            viewModel.plantResponse.observe(this) {
+            plantViewModel.getArtwork(this)
+            plantViewModel.plantResponse.observe(this) {
                 if (!it.isEmpty()) {
                     progress_bar.visibility = View.GONE
                     linear_layout_recycler_view.visibility = View.VISIBLE

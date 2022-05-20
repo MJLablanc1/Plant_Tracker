@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Stas\\Courses\\322\\Project\\Main\\Plant_Tracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
+            "outputFile": "C:\\Stas\\Courses\\322\\Project\\Plant Tracker\\Plant_Tracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-da\\values-da.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Samts\\.gradle\\caches\\transforms-3\\c2fd515175ff258f318f8f1e385ba6f2\\transformed\\play-services-base-18.0.1\\res\\values-da\\values.xml",
