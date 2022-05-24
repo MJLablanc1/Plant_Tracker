@@ -11,6 +11,7 @@ import androidx.annotation.RequiresApi
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.isit322.artworklist.adapters.AdapterRecycler
+import com.isit322.artworklist.data.Plant
 import com.isit322.artworklist.data.PlantItem
 import com.isit322.artworklist.ui.PlantViewModel
 import kotlinx.android.synthetic.main.activity_main.*
@@ -18,7 +19,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
     lateinit var plantViewModel: PlantViewModel
     lateinit var adapterRecyclerView: AdapterRecycler
-    var plantList: List<PlantItem>? = ArrayList()
+    var plantList: ArrayList<PlantItem>? = ArrayList()
 
     @RequiresApi(Build.VERSION_CODES.N)
     val locationPermissionRequest = registerForActivityResult(
@@ -40,6 +41,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val tempPlantList = arrayListOf(PlantItem("sunflower", "sunflower.png", "23213"),
+        PlantItem("blueberries", "bluerries.png", "11111")
+        )
+
+        val plantList: ArrayList<PlantItem> = ArrayList()
+        plantList.add(PlantItem("sunflower", "sunflower.png", "23232"))
+        plantList.add(PlantItem("blueberry", "blurberrie.png", "11111"))
         /*locationPermissionRequest.launch(arrayOf(
             android.Manifest.permission.ACCESS_FINE_LOCATION,
             android.Manifest.permission.ACCESS_COARSE_LOCATION))*/
@@ -48,6 +56,7 @@ class MainActivity : AppCompatActivity() {
         val mapButton = findViewById<Button>(R.id.mapBtn)
         mapButton.setOnClickListener {
             val intent = Intent(this, MapActivity::class.java)
+            intent.putParcelableArrayListExtra("plantData", plantList)
             startActivity(intent)
         }
 
@@ -74,7 +83,7 @@ class MainActivity : AppCompatActivity() {
                 if (!it.isEmpty()) {
                     progress_bar.visibility = View.GONE
                     linear_layout_recycler_view.visibility = View.VISIBLE
-                    plantList = it
+                    plantList = it as ArrayList<PlantItem>?
                     adapterRecyclerView.setData(plantList)
                 }
                 else {
