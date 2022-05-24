@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Programming\\ISIT322\\Plant_Tracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "outputFile": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\Plant_Tracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\seank\\.gradle\\caches\\transforms-3\\8b94b44f76a6fc74c85e674b1b8eb9c4\\transformed\\play-services-basement-18.0.0\\res\\values-fi\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "145",
-                        "endOffsets": "340"
-                    },
-                    "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "4307",
-                        "endColumns": "149",
-                        "endOffsets": "4452"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\seank\\.gradle\\caches\\transforms-3\\c2fd515175ff258f318f8f1e385ba6f2\\transformed\\play-services-base-18.0.1\\res\\values-fi\\values.xml",
+                    "source": "C:\\Users\\madmi\\.gradle\\caches\\transforms-3\\c2fd515175ff258f318f8f1e385ba6f2\\transformed\\play-services-base-18.0.1\\res\\values-fi\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\seank\\.gradle\\caches\\transforms-3\\75f318a5eb9177b1b3b3d3c9048652b4\\transformed\\core-1.7.0\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\madmi\\.gradle\\caches\\transforms-3\\75f318a5eb9177b1b3b3d3c9048652b4\\transformed\\core-1.7.0\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\seank\\.gradle\\caches\\transforms-3\\e61842c0f63c94df90a70cf95ce9d6bc\\transformed\\material-1.5.0\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\madmi\\.gradle\\caches\\transforms-3\\e61842c0f63c94df90a70cf95ce9d6bc\\transformed\\material-1.5.0\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,7 +57,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\seank\\.gradle\\caches\\transforms-3\\5ee342e28a370d228c8807440559eac2\\transformed\\appcompat-1.4.1\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\madmi\\.gradle\\caches\\transforms-3\\8b94b44f76a6fc74c85e674b1b8eb9c4\\transformed\\play-services-basement-18.0.0\\res\\values-fi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "145",
+                        "endOffsets": "340"
+                    },
+                    "to": {
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "4307",
+                        "endColumns": "149",
+                        "endOffsets": "4452"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\madmi\\.gradle\\caches\\transforms-3\\5ee342e28a370d228c8807440559eac2\\transformed\\appcompat-1.4.1\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

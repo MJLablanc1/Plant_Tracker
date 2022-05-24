@@ -13,6 +13,8 @@ import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.get
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.GoogleMap
@@ -21,10 +23,15 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.isit322.artworklist.data.PlantItem
+import com.isit322.plant_tracker.data.RGeoData
+import com.isit322.plant_tracker.ui.RGeoDataViewModel
+
 
 class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var fusedLocationProviderClient: FusedLocationProviderClient
+    lateinit var rGeoViewModel: RGeoDataViewModel
+    lateinit var rGeoDataObject: RGeoData
 
     var long = 0.0
     var lat = 0.0
@@ -33,6 +40,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_map)
+
 
         val enterPlantButton = findViewById<Button>(R.id.button3)
         enterPlantButton.setOnClickListener {
@@ -45,6 +53,10 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 //        for(i in plantList) {
 //            println(i)
 //        }
+
+        //Initializing RGeoDataViewModel to be used to make api call for reverse Geocoding data
+        rGeoViewModel = ViewModelProvider(this).get(RGeoDataViewModel::class.java)
+
 
         // *** IMPORTANT ***
         // MapView requires that the Bundle you pass contain _ONLY_ MapView SDK
@@ -84,6 +96,13 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
                         Toast.makeText(this,"Get Success", Toast.LENGTH_SHORT).show()
                         long = location.longitude
                         lat = location.latitude
+
+                        // USING Longitude and latitude values to convert to fields such as city, state etc. using Reverse Geo Coding
+                        var latLong = "" + lat + "," + long + "";
+                        rGeoViewModel.getRGeoData(latLong, this)
+                        rGeoViewModel.RGeoDataResponse.observe(this) {
+                            rGeoDataObject = it
+                        }
                     }
                 }
             } else {
