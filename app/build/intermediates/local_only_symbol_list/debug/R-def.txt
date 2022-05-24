@@ -14,6 +14,7 @@ drawable tree1
 drawable tree2
 id AddPlantBtn
 id Location
+id MaptoPlantbtn
 id PlantDescription
 id PlantImage
 id PlantName
@@ -30,6 +31,7 @@ id text_view_plant_name
 layout activity_main
 layout activity_map
 layout activity_plant_input
+layout activity_user_plant_input
 layout row_plant_item_adapter_list
 mipmap ic_launcher
 mipmap ic_launcher_round

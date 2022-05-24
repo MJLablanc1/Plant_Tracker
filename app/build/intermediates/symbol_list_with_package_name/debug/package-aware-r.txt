@@ -2580,6 +2580,7 @@ id CTRL
 id FUNCTION
 id Location
 id META
+id MaptoPlantbtn
 id NO_DEBUG
 id PlantDescription
 id PlantImage
@@ -3161,6 +3162,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_map
 layout activity_plant_input
+layout activity_user_plant_input
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\madmi\\.gradle\\caches\\transforms-3\\5ee342e28a370d228c8807440559eac2\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\madmi\\.gradle\\caches\\transforms-3\\f5bafe8e8f2c78135525f2b2434b2cc2\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\madmi\\.gradle\\caches\\transforms-3\\a594ba3dc4126124fdeae8ea0e1d1a9c\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\madmi\\.gradle\\caches\\transforms-3\\75f318a5eb9177b1b3b3d3c9048652b4\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

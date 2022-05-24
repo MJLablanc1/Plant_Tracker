@@ -18,6 +18,7 @@ import java.io.File
 private  const val FILE_NAME = "photo"
 private const val REQUEST_CODE = 42
 private lateinit var photoFile: File
+
 class PlantInput : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

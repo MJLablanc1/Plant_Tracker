@@ -46,6 +46,14 @@ class MainActivity : AppCompatActivity() {
         recycler_view.adapter = adapterRecyclerView
         recycler_view.layoutManager = LinearLayoutManager(this)
 
+        val tempPlantList = arrayListOf(PlantItem("sunflower", "sunflower.png", "23213"),
+            PlantItem("blueberries", "bluerries.png", "11111")
+        )
+
+        val plantList: ArrayList<PlantItem> = ArrayList()
+        plantList.add(PlantItem("sunflower", "sunflower.png", "23232"))
+        plantList.add(PlantItem("blueberry", "blurberrie.png", "11111"))
+
         /*
             locationPermissionRequest.launch(arrayOf(
             android.Manifest.permission.ACCESS_FINE_LOCATION,
@@ -60,14 +68,21 @@ class MainActivity : AppCompatActivity() {
                 if (!it.isEmpty()) {
                     progress_bar.visibility = View.GONE
                     linear_layout_recycler_view.visibility = View.VISIBLE
-                    plantList = it
                     adapterRecyclerView.setData(plantList)
                 } else {
                     progress_bar.visibility = View.GONE
                 }
             }
             val intent = Intent(this, MapActivity::class.java)
+            intent.putParcelableArrayListExtra("plantData", plantList)
             startActivity(intent)
         }
+
+        val enterPlantButton = findViewById<Button>(R.id.settingsBtn)
+        enterPlantButton.setOnClickListener {
+            val intent = Intent(this, UserPlantInput::class.java)
+            startActivity(intent)
+        }
+
     }
 }
