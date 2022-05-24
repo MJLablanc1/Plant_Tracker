@@ -85,6 +85,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
                         rGeoViewModel.getRGeoData(latLong, this)
                         rGeoViewModel.RGeoDataResponse.observe(this) {
                             rGeoDataObject = it
+                            Toast.makeText(this,"GEO Success: " + rGeoDataObject.plus_code.compound_code, Toast.LENGTH_LONG).show()
                         }
                     }
                 }

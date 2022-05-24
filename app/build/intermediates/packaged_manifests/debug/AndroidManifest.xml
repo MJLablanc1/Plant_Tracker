@@ -45,9 +45,6 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="com.isit322.plant_tracker.CameraActivity"
-            android:exported="false" />
-        <activity
             android:name="com.isit322.plant_tracker.MapActivity"
             android:exported="false"
             android:label="Map" />

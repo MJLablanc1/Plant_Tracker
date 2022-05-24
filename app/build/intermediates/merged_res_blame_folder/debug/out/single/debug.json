@@ -24,12 +24,12 @@
         "source": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_map.xml.flat",
         "source": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_plant_input.xml.flat",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\build\\intermediates\\merged_res\\debug\\drawable_tree2.png.flat",
         "source": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\src\\main\\res\\drawable\\tree2.png"
+    },
+    {
+        "merged": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\madmi\\Desktop\\ISIT322\\Project files\\obo\\Mergeland\\main\\Plant_Tracker\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
